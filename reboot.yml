@@ -1,0 +1,3 @@
+- name: Unconditionally reboot the machine with all defaults
+  hosts: rps
+  ansible.builtin.reboot:
