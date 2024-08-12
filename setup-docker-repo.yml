@@ -1,0 +1,4 @@
+- hosts: rps-debian
+  tasks:
+    - name: Setup docker repo
+      ansible.builtin.script: setup-docker-repo.sh
