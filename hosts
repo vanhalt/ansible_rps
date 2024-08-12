@@ -1,5 +1,11 @@
-[rps]
-r[1:5]
+[rps-debian]
+r[2:5]
 
-[rps:vars]
+[rps-ubuntu]
+r1
+
+[rps-debian:vars]
+ansible_python_interpreter=auto_silent
+
+[rps-ubuntu:vars]
 ansible_python_interpreter=auto_silent
